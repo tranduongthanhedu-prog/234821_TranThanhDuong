@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API = "http://localhost:5000/api/books";
+const API = "/api/books";
 
 const emptyBook = {
   bookId: "",
